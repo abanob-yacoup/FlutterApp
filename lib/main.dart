@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 decoration: InputDecoration(labelText: 'Password'),
               ),
             ),
-            RaisedButton(
+            FlatButton(
               padding: const EdgeInsets.all(15.0),
               onPressed: () {
                 Navigator.push(
